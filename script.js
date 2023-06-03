@@ -1,5 +1,9 @@
 //your JS code here. If required.
+
+
 document.addEventListener('DOMContentLoaded', function() {
+  // Your code here
+	document.addEventListener('DOMContentLoaded', function() {
   // Get the form and input elements
   const preferencesForm = document.getElementById('preferencesForm');
   const fontSizeInput = document.getElementById('fontsize');
@@ -42,4 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     return null;
   }
+});
+
 });
